@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="800.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.aharoo.controllers.MainController">
+   <children>
+      <AnchorPane layoutY="98.0" prefHeight="302.0" prefWidth="800.0" style="-fx-background-color: #FAFAFA;">
+         <children>
+            <Button fx:id="explanationOfMetrics" layoutX="111.0" layoutY="175.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="231.0" text="Explanation of metrics">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="dataEntry" layoutX="111.0" layoutY="65.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="231.0" text="Data entry ">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="cloudRating" layoutX="456.0" layoutY="65.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="231.0" text="Cloud rating">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="exit" layoutX="456.0" layoutY="175.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="231.0" text="Exit">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+         </children>
+      </AnchorPane>
+      <Label layoutX="306.0" layoutY="23.0" prefHeight="56.0" prefWidth="189.0" text="Main page" textFill="WHITE">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

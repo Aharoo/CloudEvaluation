@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1200.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.aharoo.controllers.CloudRatingController">
+    <children>
+        <AnchorPane layoutX="1.0" layoutY="104.0" prefHeight="796.0" prefWidth="1200.0" style="-fx-background-color: #FAFAFA;">
+         <children>
+            <TableView fx:id="tableView" layoutX="48.0" layoutY="26.0" prefHeight="198.0" prefWidth="1113.0">
+              <columns>
+                <TableColumn fx:id="cloudName" minWidth="0.0" prefWidth="263.0" text="Cloud name" />
+                  <TableColumn fx:id="rating" minWidth="0.0" prefWidth="273.0" text="Rating" />
+                  <TableColumn fx:id="mainRating" minWidth="0.0" prefWidth="292.0" text="Main rating" />
+                  <TableColumn fx:id="sideRating" prefWidth="284.0" text="Side rating" />
+              </columns>
+            </TableView>
+            <BarChart fx:id="ratingChart" layoutX="48.0" layoutY="365.0" prefHeight="374.0" prefWidth="1113.0" title="Cloud rating">
+               <xAxis>
+                  <CategoryAxis label="X" side="BOTTOM" fx:id="x" />
+               </xAxis>
+               <yAxis>
+                  <NumberAxis fx:id="y" label="Y" side="LEFT" />
+               </yAxis>
+            </BarChart>
+            <Button fx:id="deleteCloud" layoutX="631.0" layoutY="239.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="268.0" text="Delete cloud">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="addNewCloud" layoutX="326.0" layoutY="239.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="268.0" text="Add new cloud">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+         </children>
+        </AnchorPane>
+        <Label layoutX="485.0" layoutY="24.0" prefHeight="56.0" prefWidth="231.0" text="Cloud rating" textFill="WHITE">
+            <font>
+                <Font size="39.0" />
+            </font>
+        </Label>
+          <Button fx:id="mainPage" layoutX="993.0" layoutY="30.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="159.0" text="Main page">
+              <font>
+                  <Font size="20.0" />
+              </font>
+      </Button>
+    </children>
+</AnchorPane>
