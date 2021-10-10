@@ -30,7 +30,6 @@ public class MainController {
     @FXML
     private Button exit;
 
-
     @FXML
     void initialize() {
 

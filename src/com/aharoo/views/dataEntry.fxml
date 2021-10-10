@@ -7,7 +7,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.aharoo.controllers.DataEntryController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.aharoo.controllers.DataEntryController">
     <children>
         <AnchorPane layoutY="98.0" prefHeight="702.0" prefWidth="1200.0" style="-fx-background-color: #FAFAFA;">
             <children>
@@ -15,88 +15,88 @@
                     <font>
                         <Font size="20.0" />
                     </font></Button>
-            <Text layoutX="153.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Захист при передачі " wrappingWidth="172.0">
+            <Text layoutX="146.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Захист при передачі " textAlignment="CENTER" wrappingWidth="172.0">
                <font>
                   <Font size="16.0" />
                </font></Text>
-            <Text layoutX="406.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Наявність шифрування на стороні сервера або кліента" wrappingWidth="211.0">
+            <Text layoutX="396.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Наявність шифрування на стороні сервера або кліента" textAlignment="CENTER" wrappingWidth="211.0">
                <font>
                   <Font size="16.0" />
                </font></Text>
-            <Text layoutX="670.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Швидкість скачування" wrappingWidth="172.0">
+            <Text layoutX="671.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Швидкість скачування" textAlignment="CENTER" wrappingWidth="172.0">
                <font>
                   <Font size="16.0" />
                </font></Text>
-            <Text layoutX="909.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Швидкість завантаження" wrappingWidth="191.0">
+            <Text layoutX="916.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Швидкість завантаження" textAlignment="CENTER" wrappingWidth="191.0">
                <font>
                   <Font size="16.0" />
                </font></Text>
-            <Text layoutX="125.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Наявність пропозицій по захисту даних від розробника" wrappingWidth="228.0">
+            <Text layoutX="118.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Наявність пропозицій по захисту даних від розробника" textAlignment="CENTER" wrappingWidth="228.0">
                <font>
                   <Font size="16.0" />
                </font></Text>
-            <Text layoutX="406.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Користувальницький інтерфейс" wrappingWidth="271.0">
+            <Text layoutX="366.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Користувальницький інтерфейс" textAlignment="CENTER" wrappingWidth="271.0">
                <font>
                   <Font size="16.0" />
                </font></Text>
-            <Text layoutX="669.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Надання доступу до файлів користувачам" wrappingWidth="204.0">
+            <Text layoutX="656.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Надання доступу до файлів користувачам" textAlignment="CENTER" wrappingWidth="204.0">
                <font>
                   <Font size="16.0" />
                </font></Text>
-            <Text layoutX="899.0" layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Платформа,на якій можливе встановлення(Windows,Linux,Ubuntu)" wrappingWidth="294.0">
+            <Text layoutX="873.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Платформа,на якій можливе встановлення(Windows,Linux)" textAlignment="CENTER" wrappingWidth="294.0">
                <font>
                   <Font size="16.0" />
                </font></Text>
-            <Text layoutX="119.0" layoutY="324.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Перегляд файлів pdf,word,excel" wrappingWidth="294.0">
+            <Text layoutX="74.0" layoutY="324.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Перегляд файлів pdf,word,excel" textAlignment="CENTER" wrappingWidth="294.0">
                <font>
                   <Font size="16.0" />
                </font></Text>
-            <Text layoutX="413.0" layoutY="303.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Синхронізація змін з локальним ПК" wrappingWidth="211.0">
+            <Text layoutX="397.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Синхронізація змін з локальним ПК" textAlignment="CENTER" wrappingWidth="211.0">
                <font>
                   <Font size="16.0" />
                </font></Text>
-            <Text layoutX="948.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Історія змін" wrappingWidth="93.0">
+            <Text layoutX="965.0" layoutY="313.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Історія змін" textAlignment="CENTER" wrappingWidth="93.0">
                <font>
                   <Font size="16.0" />
                </font></Text>
-            <Text layoutX="107.0" layoutY="413.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Можливість створення/видалення/переміщення/перенайменування директорій" wrappingWidth="306.0">
+            <Text layoutX="68.0" layoutY="414.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Можливість створення/видалення/переміщення/перенайменування директорій" textAlignment="CENTER" wrappingWidth="306.0">
                <font>
                   <Font size="16.0" />
                </font></Text>
-            <Text layoutX="685.0" layoutY="447.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Безкоштовне ПЗ" wrappingWidth="172.0">
+            <Text layoutX="672.0" layoutY="435.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Безкоштовне ПЗ" textAlignment="CENTER" wrappingWidth="172.0">
                <font>
                   <Font size="16.0" />
                </font></Text>
-            <Text layoutX="894.0" layoutY="458.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Додатки для IOS / Android" wrappingWidth="235.0">
+            <Text layoutX="903.0" layoutY="435.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Додатки для IOS / Android" textAlignment="CENTER" wrappingWidth="235.0">
                <font>
                   <Font size="16.0" />
                </font></Text>
             <TextField fx:id="uploadSpeed" layoutX="932.0" layoutY="87.0" prefHeight="25.0" prefWidth="146.0" />
-            <Text layoutX="680.0" layoutY="303.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Максимальний розмір розміщуваного файлу(Мб)" wrappingWidth="211.0">
+            <Text layoutX="652.0" layoutY="303.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Максимальний розмір розміщуваного файлу(Мб)" textAlignment="CENTER" wrappingWidth="211.0">
                <font>
                   <Font size="16.0" />
                </font></Text>
-            <Text layoutX="413.0" layoutY="436.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Можливість роботи при відсутності Internet" wrappingWidth="256.0">
+            <Text layoutX="374.0" layoutY="425.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Можливість роботи при відсутності Internet" textAlignment="CENTER" wrappingWidth="256.0">
                <font>
                   <Font size="16.0" />
                </font></Text>
             <TextField fx:id="downloadSpeed" layoutX="684.0" layoutY="87.0" prefHeight="25.0" prefWidth="146.0" />
-            <TextField fx:id="presenceOfEncryption" layoutX="428.0" layoutY="87.0" prefHeight="25.0" prefWidth="146.0" />
+            <TextField fx:id="presenceOfEncryption" layoutX="427.0" layoutY="87.0" prefHeight="25.0" prefWidth="146.0" />
             <TextField fx:id="transmissionProtection" layoutX="159.0" layoutY="87.0" prefHeight="25.0" prefWidth="146.0" />
             <TextField fx:id="installationPlatform" layoutX="932.0" layoutY="217.0" prefHeight="25.0" prefWidth="146.0" />
             <TextField fx:id="grantingAccessForUsers" layoutX="684.0" layoutY="217.0" prefHeight="25.0" prefWidth="146.0" />
-            <TextField fx:id="userInterface" layoutX="427.0" layoutY="217.0" prefHeight="25.0" prefWidth="146.0" />
+            <TextField fx:id="userInterface" layoutX="429.0" layoutY="217.0" prefHeight="25.0" prefWidth="146.0" />
             <TextField fx:id="proposalForDataProtection" layoutX="159.0" layoutY="217.0" prefHeight="25.0" prefWidth="146.0" />
             <TextField fx:id="historyOfChange" layoutX="932.0" layoutY="349.0" prefHeight="25.0" prefWidth="146.0" />
-            <TextField fx:id="maximumFileSize" layoutX="684.0" layoutY="349.0" prefHeight="25.0" prefWidth="146.0" />
-            <TextField fx:id="synchronizeChangesWithPC" layoutX="427.0" layoutY="349.0" prefHeight="25.0" prefWidth="146.0" />
+            <TextField fx:id="maximumFileSize" layoutX="685.0" layoutY="349.0" prefHeight="25.0" prefWidth="146.0" />
+            <TextField fx:id="synchronizeChangesWithPC" layoutX="429.0" layoutY="349.0" prefHeight="25.0" prefWidth="146.0" />
             <TextField fx:id="viewFiles" layoutX="159.0" layoutY="349.0" prefHeight="25.0" prefWidth="146.0" />
             <TextField fx:id="appForSmartphone" layoutX="932.0" layoutY="486.0" prefHeight="25.0" prefWidth="146.0" />
             <TextField fx:id="freeSoftware" layoutX="684.0" layoutY="486.0" prefHeight="25.0" prefWidth="146.0" />
-            <TextField fx:id="abilityToWorkWithoutInternet" layoutX="428.0" layoutY="486.0" prefHeight="25.0" prefWidth="146.0" />
+            <TextField fx:id="abilityToWorkWithoutInternet" layoutX="429.0" layoutY="486.0" prefHeight="25.0" prefWidth="146.0" />
             <TextField fx:id="abilityToChangeDirectories" layoutX="159.0" layoutY="486.0" prefHeight="25.0" prefWidth="146.0" />
-            <TextField fx:id="cloudName" layoutX="552.0" layoutY="547.0" prefHeight="25.0" prefWidth="146.0" />
-            <Text layoutX="574.0" layoutY="529.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Назва хмари" wrappingWidth="101.0">
+            <TextField fx:id="cloudName" layoutX="552.0" layoutY="559.0" prefHeight="25.0" prefWidth="146.0" />
+            <Text layoutX="574.0" layoutY="539.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Назва хмари" wrappingWidth="101.0">
                <font>
                   <Font size="16.0" />
                </font>

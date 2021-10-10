@@ -8,28 +8,108 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="800.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.aharoo.controllers.ExplanationOfMetricsController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="897.0" prefWidth="1123.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.aharoo.controllers.ExplanationOfMetricsController">
     <children>
-        <AnchorPane layoutY="98.0" prefHeight="302.0" prefWidth="800.0" style="-fx-background-color: #FAFAFA;">
+        <AnchorPane layoutY="95.0" prefHeight="803.0" prefWidth="1123.0" style="-fx-background-color: #FAFAFA;">
          <children>
-            <ImageView fitHeight="150.0" fitWidth="401.0" layoutX="200.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="150.0" fitWidth="401.0" layoutX="349.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../resources/Формула.png" />
                </image>
             </ImageView>
-            <Text layoutX="160.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="де M – метрика, яка розраховується, Fij – характеристика j-го сховища з таблиці, яка відноситься до основної групи, Sij – характеристика j-го сховища з таблиці, яка відноситься до побічної групи,  Vj – коефіціент значущості з таблиці" wrappingWidth="504.13671875">
+            <Text layoutX="72.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="де M – метрика, яка розраховується, Fij – характеристика j-го сховища з таблиці, яка відноситься до основної групи, Sij – характеристика j-го сховища з таблиці, яка відноситься до побічної групи,  Vj – коефіціент значущості з таблиці" textAlignment="JUSTIFY" wrappingWidth="980.13671875">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <Text layoutX="39.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1) Захист при передачі (шифрування) – оцінюється в 0 балів при відсутності захисту, та в 10 балів при наявності захисту." textAlignment="JUSTIFY" wrappingWidth="504.13671875">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <Text layoutX="39.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2) Наявність шифрування на стороні сервера або кліента – оцінюється в 0 балів при відсутності шифрування та в 10 балів при наявності шифрування." textAlignment="JUSTIFY" wrappingWidth="504.13671875">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <Text layoutX="39.0" layoutY="308.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3) Швидкість скачування – оцінюється 1000 МБ/час скачування в секундах." textAlignment="JUSTIFY" wrappingWidth="504.13671875">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <Text layoutX="39.0" layoutY="359.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4) Швидкість завантаження – оцінюється 1000 МБ/час завантаження в секундах." textAlignment="JUSTIFY" wrappingWidth="504.13671875">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <Text layoutX="39.0" layoutY="409.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5) Наявність пропозицій по захисту даних від розробника – оцінюється в 0 балів при відсутності і в 5 балів при наявності" textAlignment="JUSTIFY" wrappingWidth="504.13671875">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <Text layoutX="39.0" layoutY="493.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6) Користувальницький інтерфейс – оцінюється від 0 до 10 шляхом перевірки інтерфейсу на зрозумілість та привабливий вигляд." textAlignment="JUSTIFY" wrappingWidth="504.13671875">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <Text layoutX="39.0" layoutY="568.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7) Надання доступу до файлів користувачів – оцінюється в 0 балів при неможливості надання доступу та в 5 балів при можливості надання доступу." textAlignment="JUSTIFY" wrappingWidth="504.13671875">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <Text layoutX="39.0" layoutY="648.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8) Платформа, на якій можливе встановлення (Windows,Linux) –  оцінюється в 5 балів, якщо встановлення можливе лише на одну з ОС, та в 10 балів при можливості встановлення на обидві ОС." textAlignment="JUSTIFY" wrappingWidth="504.13671875">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <Text layoutX="582.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10) Перегляд файлів pdf,word,excel – оцінюється в 0 балів при неможливості перегляду будь-якого файлу, в 5 балів при частковій можливості та в 10 балів при можливості перегляду будь-якого файлу." textAlignment="JUSTIFY" wrappingWidth="504.13671875">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <Text layoutX="582.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="11) Максимальний розмір розміщуваного файлу – оцінюється в 0 балів при обмеженому розміру та в 10 балів при необмеженому розміру." textAlignment="JUSTIFY" wrappingWidth="504.13671875">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <Text layoutX="582.0" layoutY="333.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12) Синхронізація змін з локальним ПК – оцінюється в 0 балів при відсутності синхронізації та в 5 балів при її наявності" textAlignment="JUSTIFY" wrappingWidth="504.13671875">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <Text layoutX="39.0" layoutY="749.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9) Історія змін – оцінюється в 0 балів при відстутності та в 5 балів при наявності" textAlignment="JUSTIFY" wrappingWidth="504.13671875">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <Text layoutX="582.0" layoutY="410.0" strokeType="OUTSIDE" strokeWidth="0.0" text="13) Можливість роботи при відсутності Internet – оцінюється в 0 балів при неможливості та в 10 балів при можливості" textAlignment="JUSTIFY" wrappingWidth="504.13671875">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <Text layoutX="582.0" layoutY="493.0" strokeType="OUTSIDE" strokeWidth="0.0" text="14) Можливість створення/видалення/переміщення/перенайменування директорій – оцінюється в 0 балів при неможливості та в 5 балів при можливості" wrappingWidth="504.13671875">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <Text layoutX="582.0" layoutY="606.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15) Безкоштовне ПЗ – оцінюється в 0 балів, якщо ПЗ платне,5 балів – якщо ПЗ частково платне та в 10 балів якщо безкоштовне." textAlignment="JUSTIFY" wrappingWidth="504.13671875">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Text>
+            <Text layoutX="582.0" layoutY="699.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16) Додатки для IOS/Android – оцінюється в 0 балів при відсутності додатків, 5 балів при наявності додатку для однієї з ОС, 10 балів при наявності додатку для обох ОС." textAlignment="JUSTIFY" wrappingWidth="504.13671875">
                <font>
                   <Font size="19.0" />
                </font>
             </Text>
          </children>
         </AnchorPane>
-        <Label layoutX="183.0" layoutY="23.0" prefHeight="56.0" prefWidth="435.0" text="Explanation of metrics" textFill="WHITE">
+        <Label layoutX="344.0" layoutY="23.0" prefHeight="56.0" prefWidth="435.0" text="Explanation of metrics" textFill="WHITE">
             <font>
                 <Font size="39.0" />
             </font>
         </Label>
-          <Button fx:id="mainPage" layoutX="610.0" layoutY="29.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="155.0" text="Main page">
+          <Button fx:id="mainPage" layoutX="933.0" layoutY="29.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="155.0" text="Main page">
               <font>
                   <Font size="20.0" />
               </font>

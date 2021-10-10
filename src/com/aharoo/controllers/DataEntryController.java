@@ -86,15 +86,15 @@ public class DataEntryController {
             Rating cloudRating = new Rating();
             try {
 
-                double mainRating = 2 * (Integer.parseInt(uploadSpeed.getText()) * 1 + Integer.parseInt(downloadSpeed.getText()) * 1 +
-                        Integer.parseInt(presenceOfEncryption.getText()) * 1.1 + Integer.parseInt(transmissionProtection.getText()) * 1.5 +
-                        Integer.parseInt(proposalForDataProtection.getText()) * 1 + Integer.parseInt(historyOfChange.getText()) * 0.4 +
-                        Integer.parseInt(maximumFileSize.getText()) * 0.5 + Integer.parseInt(appForSmartphone.getText()) * 0.2) / 100;
+                double mainRating = 2 * (991/(Double.parseDouble(uploadSpeed.getText())) * 1 + 991/Double.parseDouble(downloadSpeed.getText()) * 1 +
+                        Double.parseDouble(presenceOfEncryption.getText()) * 1.1 + Double.parseDouble(transmissionProtection.getText()) * 1.5 +
+                        Double.parseDouble(proposalForDataProtection.getText()) * 1 + Double.parseDouble(historyOfChange.getText()) * 0.4 +
+                        Double.parseDouble(maximumFileSize.getText()) * 0.5 + Double.parseDouble(appForSmartphone.getText()) * 0.2) / 100;
 
-                double sideRating = 1.5 * (Integer.parseInt(installationPlatform.getText()) * 0.7 + Integer.parseInt(grantingAccessForUsers.getText()) * 0.9
-                        + Integer.parseInt(userInterface.getText()) * 0.9 + Integer.parseInt(synchronizeChangesWithPC.getText()) * 0.5 +
-                        Integer.parseInt(viewFiles.getText()) * 0.6 + Integer.parseInt(freeSoftware.getText()) * 0.3
-                        + Integer.parseInt(abilityToWorkWithoutInternet.getText()) * 0.3 + Integer.parseInt(abilityToChangeDirectories.getText()) * 0.3) / 100;
+                double sideRating = 1.5 * (Double.parseDouble(installationPlatform.getText()) * 0.7 + Double.parseDouble(grantingAccessForUsers.getText()) * 0.9
+                        + Double.parseDouble(userInterface.getText()) * 0.9 + Double.parseDouble(synchronizeChangesWithPC.getText()) * 0.5 +
+                        Double.parseDouble(viewFiles.getText()) * 0.6 + Double.parseDouble(freeSoftware.getText()) * 0.3
+                        + Double.parseDouble(abilityToWorkWithoutInternet.getText()) * 0.3 + Double.parseDouble(abilityToChangeDirectories.getText()) * 0.3) / 100;
 
                 double rating = mainRating + sideRating;
 
@@ -105,9 +105,11 @@ public class DataEntryController {
 
             } catch (NumberFormatException e){
                 errorsHandler.emptyOrIncorrectFieldsErrorMessage();
+                throw new IllegalStateException("Incorrect field error!");
             }
             ratingService.saveCloudRating(cloudRating);
             clearAllTextFields();
+            errorsHandler.cloudWasSavedSuccessfullyMessage();
             System.out.println("Cloud rating generated successfully");
         });
 

@@ -11,4 +11,13 @@ public class ErrorsHandler {
 
         alert.showAndWait();
     }
+
+    public void cloudWasSavedSuccessfullyMessage(){
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("CloudWasSavedSuccessfullyMessage");
+        alert.setHeaderText(null);
+        alert.setContentText("New cloud rating was saved successfully!");
+
+        alert.showAndWait();
+    }
 }

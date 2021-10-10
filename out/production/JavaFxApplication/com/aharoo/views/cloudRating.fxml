@@ -10,24 +10,24 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1200.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.aharoo.controllers.CloudRatingController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1200.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.aharoo.controllers.CloudRatingController">
     <children>
         <AnchorPane layoutX="1.0" layoutY="104.0" prefHeight="796.0" prefWidth="1200.0" style="-fx-background-color: #FAFAFA;">
          <children>
-            <TableView fx:id="tableView" layoutX="48.0" layoutY="26.0" prefHeight="198.0" prefWidth="1113.0">
+            <TableView fx:id="tableView" layoutX="48.0" layoutY="26.0" prefHeight="198.0" prefWidth="1113.0" style="-fx-alignment: CENTER;">
               <columns>
-                <TableColumn fx:id="cloudName" minWidth="0.0" prefWidth="263.0" text="Cloud name" />
-                  <TableColumn fx:id="rating" minWidth="0.0" prefWidth="273.0" text="Rating" />
-                  <TableColumn fx:id="mainRating" minWidth="0.0" prefWidth="292.0" text="Main rating" />
-                  <TableColumn fx:id="sideRating" prefWidth="284.0" text="Side rating" />
+                <TableColumn fx:id="cloudName" minWidth="0.0" prefWidth="263.0" style="-fx-alignment: CENTER;" text="Cloud name" />
+                  <TableColumn fx:id="rating" minWidth="0.0" prefWidth="273.0" style="-fx-alignment: CENTER;" text="Rating" />
+                  <TableColumn fx:id="mainRating" minWidth="0.0" prefWidth="292.0" style="-fx-alignment: CENTER;" text="Main rating" />
+                  <TableColumn fx:id="sideRating" prefWidth="284.0" style="-fx-alignment: CENTER;" text="Side rating" />
               </columns>
             </TableView>
             <BarChart fx:id="ratingChart" layoutX="48.0" layoutY="365.0" prefHeight="374.0" prefWidth="1113.0" title="Cloud rating">
                <xAxis>
-                  <CategoryAxis label="X" side="BOTTOM" fx:id="x" />
+                  <CategoryAxis side="BOTTOM" fx:id="x" />
                </xAxis>
                <yAxis>
-                  <NumberAxis fx:id="y" label="Y" side="LEFT" />
+                  <NumberAxis fx:id="y" label="Rating" side="LEFT" />
                </yAxis>
             </BarChart>
             <Button fx:id="deleteCloud" layoutX="631.0" layoutY="239.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="268.0" text="Delete cloud">
