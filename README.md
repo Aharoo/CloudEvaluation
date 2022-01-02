@@ -6,4 +6,4 @@ The parameters by which the assessment is carried out are divided into two group
 - side parameters - these are parameters that are not key in the use of private clouds, but should be evaluated as additional.  
 
 Evaluation is performed using metrics:  
-![Formula] (https://i.ibb.co/993h5nd/Formula.png)
+![Formula](https://i.ibb.co/993h5nd/Formula.png)
