@@ -11,6 +11,6 @@ Evaluation is performed using metrics:
 where M is the metric that is calculated, Fij is the characteristic of the j-th repository from the table that belongs to the main group, Sij is the characteristic of the j-th repository from the table that belongs to the side group, Vj is the significance factor from the table.  ]
 
 Visualization of the program is given below:  
-![Evaluation](https://i.ibb.co/JchMjSS/Evaluation.png)
+![Evaluation](https://i.ibb.co/ZHc3kRF/Evaluation.png)
 
 Thank you for attention and good luck!
