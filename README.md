@@ -1,4 +1,4 @@
-# CloudEvaluationJavaFX
+# CloudEvaluation
 Application for evaluation private clouds by self-developed metrics that was written in JavaFX.  
 
 The parameters by which the assessment is carried out are divided into two groups:  
